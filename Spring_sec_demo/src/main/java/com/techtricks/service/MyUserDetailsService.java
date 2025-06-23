@@ -44,7 +44,5 @@ public class MyUserDetailsService implements UserDetailsService {
     }
 
 
-    public List<Users> getAllUsers(){
-        return userRepo.findAll();
-    }
+
 }
